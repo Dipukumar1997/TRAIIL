@@ -1,0 +1,70 @@
+# System files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+Desktop.ini
+
+# User-specific configuration files
+.bash_history
+.cache/
+.config/
+.dbus-keyrings/
+.fontconfig/
+.gitconfig
+.lesshst
+.node_repl_history
+.ssh/
+.vscode/
+.wsa-pacman/
+
+# Node modules
+node_modules/
+
+# Logs and temporary files
+*.log
+*.swp
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.lock
+npm-debug.log*
+yarn.lock
+
+# Build directories
+dist/
+build/
+
+# OS-specific files
+AppData/
+Contacts/
+Downloads/
+Favorites/
+IdeaProjects/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.DAT
+Saved Games/
+Searches/
+Videos/
+WebstormProjects/
+
+# Backup files
+*~
+*.bak
+*.backup
+*.tmp
+
+# Personal data files
+*.pdf
+*.mp4
+*.jpg
+*.png
+*.exe
+*.url
+*.lnk
+
+# Project-specific ignores
+platform-tools/
