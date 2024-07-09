@@ -1,8 +1,27 @@
-# Ignore system files
+# System files
 .DS_Store
 Thumbs.db
+.Spotlight-V100
+.Trashes
+Desktop.ini
 
-# Ignore all user-specific configuration files
+# User-specific configuration files
+.bash_history
+.cache/
+.config/
+.dbus-keyrings/
+.fontconfig/
+.gitconfig
+.lesshst
+.node_repl_history
+.ssh/
+.vscode/
+.wsa-pacman/
+
+# Node modules
+node_modules/
+
+# Logs and temporary files
 *.log
 *.swp
 *.tmp
@@ -10,59 +29,14 @@ Thumbs.db
 *.seed
 *.pid.lock
 *.lock
-*.log
+npm-debug.log*
+yarn.lock
 
-# Ignore node_modules folder
-node_modules/
-
-# Ignore build directories
+# Build directories
 dist/
 build/
 
-# Ignore npm debug file
-npm-debug.log*
-
-# Ignore yarn lock file
-yarn.lock
-
-# Ignore IDE and editor files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Ignore OS-specific files
-*.bak
-*.old
-*.orig
-
-# Ignore other system and application-specific files
-.AppleDouble
-.LSOverride
-.Spotlight-V100
-.Trashes
-Desktop.ini
-
-# Ignore user-specific files
-*.local
-*.config
-*.cache
-*.android
-*.atom
-*.dbus-keyrings
-*.fontconfig
-*.gitconfig
-*.lesshst
-*.m2
-*.node_repl_history
-*.openshot_qt
-*.redhat
-*.skiko
-*.ssh
-*.th-client
-*.vivaldi_reporting_data
-*.vscode
-*.wsa-pacman
+# OS-specific files
 AppData/
 Contacts/
 Downloads/
@@ -77,13 +51,13 @@ Searches/
 Videos/
 WebstormProjects/
 
-# Ignore backup files
+# Backup files
 *~
 *.bak
 *.backup
 *.tmp
 
-# Ignore personal data files
+# Personal data files
 *.pdf
 *.mp4
 *.jpg
@@ -92,6 +66,5 @@ WebstormProjects/
 *.url
 *.lnk
 
-# Ignore other unnecessary files
-Untitled Project.osp
-Untitled Project_assets/
+# Project-specific ignores
+platform-tools/
