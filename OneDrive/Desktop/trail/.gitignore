@@ -1,0 +1,97 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore all user-specific configuration files
+*.log
+*.swp
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.lock
+*.log
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore npm debug file
+npm-debug.log*
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+*.bak
+*.old
+*.orig
+
+# Ignore other system and application-specific files
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Desktop.ini
+
+# Ignore user-specific files
+*.local
+*.config
+*.cache
+*.android
+*.atom
+*.dbus-keyrings
+*.fontconfig
+*.gitconfig
+*.lesshst
+*.m2
+*.node_repl_history
+*.openshot_qt
+*.redhat
+*.skiko
+*.ssh
+*.th-client
+*.vivaldi_reporting_data
+*.vscode
+*.wsa-pacman
+AppData/
+Contacts/
+Downloads/
+Favorites/
+IdeaProjects/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.DAT
+Saved Games/
+Searches/
+Videos/
+WebstormProjects/
+
+# Ignore backup files
+*~
+*.bak
+*.backup
+*.tmp
+
+# Ignore personal data files
+*.pdf
+*.mp4
+*.jpg
+*.png
+*.exe
+*.url
+*.lnk
+
+# Ignore other unnecessary files
+Untitled Project.osp
+Untitled Project_assets/
